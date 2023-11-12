@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-06T10:47:57 IST" name="Default suite" finished-at="2023-02-06T10:47:58 IST" duration-ms="1786">
+    <groups>
+    </groups>
+    <test started-at="2023-02-06T10:47:57 IST" name="Default test" finished-at="2023-02-06T10:47:58 IST" duration-ms="1786">
+      <class name="tests.ApiTest">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:tests.ApiTest@1de76cc7]" started-at="2023-02-06T10:47:56 IST" name="preSetup" finished-at="2023-02-06T10:47:57 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ApiTest@1de76cc7]" started-at="2023-02-06T10:47:57 IST" name="setUp" finished-at="2023-02-06T10:47:57 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateAddResponse()[pri:0, instance:tests.ApiTest@1de76cc7]" started-at="2023-02-06T10:47:57 IST" name="validateAddResponse" finished-at="2023-02-06T10:47:58 IST" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddResponse -->
+        <test-method is-config="true" signature="checkMethodStatus(org.testng.ITestResult)[pri:0, instance:tests.ApiTest@1de76cc7]" started-at="2023-02-06T10:47:58 IST" name="checkMethodStatus" finished-at="2023-02-06T10:47:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAddResponse status=SUCCESS method=ApiTest.validateAddResponse()[pri:0, instance:tests.ApiTest@1de76cc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMethodStatus -->
+        <test-method signature="validateGetRequest()[pri:0, instance:tests.ApiTest@1de76cc7]" started-at="2023-02-06T10:47:58 IST" name="validateGetRequest" finished-at="2023-02-06T10:47:58 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetRequest -->
+        <test-method is-config="true" signature="checkMethodStatus(org.testng.ITestResult)[pri:0, instance:tests.ApiTest@1de76cc7]" started-at="2023-02-06T10:47:58 IST" name="checkMethodStatus" finished-at="2023-02-06T10:47:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateGetRequest status=SUCCESS method=ApiTest.validateGetRequest()[pri:0, instance:tests.ApiTest@1de76cc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMethodStatus -->
+        <test-method is-config="true" signature="reSet()[pri:0, instance:tests.ApiTest@1de76cc7]" started-at="2023-02-06T10:47:58 IST" name="reSet" finished-at="2023-02-06T10:47:59 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reSet -->
+      </class> <!-- tests.ApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
